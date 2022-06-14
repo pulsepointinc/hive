@@ -19,7 +19,7 @@
   <parent>
     <groupId>org.apache.hive</groupId>
     <artifactId>hive</artifactId>
-    <version>3.1.3</version>
+    <version>3.1.3-pp00</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
 
@@ -243,7 +243,7 @@
     <dependency>
       <groupId>org.apache.hive</groupId>
       <artifactId>hive-standalone-metastore</artifactId>
-      <version>${project.version}</version>
+      <version>3.1.3</version>
       <type>test-jar</type>
       <scope>test</scope>
     </dependency>

@@ -405,37 +405,37 @@
 
   <files>
     <file>
-      <source>${project.parent.basedir}/common/src/main/resources/hive-log4j2.properties</source>
+      <source>../common/src/main/resources/hive-log4j2.properties</source>
       <outputDirectory>conf</outputDirectory>
       <destName>hive-log4j2.properties.template</destName>
     </file>
     <file>
-      <source>${project.parent.basedir}/ql/src/main/resources/hive-exec-log4j2.properties</source>
+      <source>../ql/src/main/resources/hive-exec-log4j2.properties</source>
       <outputDirectory>conf</outputDirectory>
       <destName>hive-exec-log4j2.properties.template</destName>
     </file>
     <file>
-      <source>${project.parent.basedir}/beeline/src/main/resources/beeline-log4j2.properties</source>
+      <source>../beeline/src/main/resources/beeline-log4j2.properties</source>
       <outputDirectory>conf</outputDirectory>
       <destName>beeline-log4j2.properties.template</destName>
     </file>
     <file>
-      <source>${project.parent.basedir}/llap-server/src/main/resources/llap-daemon-log4j2.properties</source>
+      <source>../llap-server/src/main/resources/llap-daemon-log4j2.properties</source>
       <outputDirectory>conf</outputDirectory>
       <destName>llap-daemon-log4j2.properties.template</destName>
     </file>
     <file>
-      <source>${project.parent.basedir}/llap-server/src/main/resources/llap-cli-log4j2.properties</source>
+      <source>../llap-server/src/main/resources/llap-cli-log4j2.properties</source>
       <outputDirectory>conf</outputDirectory>
       <destName>llap-cli-log4j2.properties.template</destName>
     </file>
     <file>
-      <source>${project.parent.basedir}/common/src/main/resources/parquet-logging.properties</source>
+      <source>../common/src/main/resources/parquet-logging.properties</source>
       <outputDirectory>conf</outputDirectory>
       <destName>parquet-logging.properties</destName>
     </file>
     <file>
-      <source>${project.parent.basedir}/hcatalog/README.txt</source>
+      <source>../hcatalog/README.txt</source>
       <outputDirectory>hcatalog/share/doc/hcatalog</outputDirectory>
     </file>
   </files>

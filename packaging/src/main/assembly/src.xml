@@ -32,7 +32,7 @@
 
   <fileSets>
     <fileSet>
-      <directory>${project.parent.basedir}</directory>
+      <directory>../</directory>
 
       <excludes>
         <exclude>**/*.jar</exclude>
